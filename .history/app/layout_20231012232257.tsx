@@ -12,7 +12,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DocuMation',
+  title: 'Jotion',
   description: 'The connected workspace where better, faster work happens.',
   icons: {
     icon: [
@@ -45,7 +45,7 @@ export default function RootLayout({
               defaultTheme="system"
               enableSystem
               disableTransitionOnChange
-              storageKey="DocuMation-theme-2"
+              storageKey="jotion-theme-2"
             >
               <Toaster position="bottom-center" />
               <ModalProvider />
